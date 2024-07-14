@@ -95,14 +95,14 @@ class Product_page(Base):
         print("Click Checkbox 20% Discount GOOD")
 
     def click_checkbox_20_discount_monitor(self):# метод нажатия на чекбокс фильтра "20% и больше" на мониторы.
-        self.filter_click_and_assert_value_in_page(self.get_checkbox_filter_sup(11), self.get_number_of_products_in_page())# вызываем метод сравнения значения количества товаров на фильтре и на сайте.
+        self.filter_click_and_assert_value_in_page(self.get_checkbox_filter_sup(10), self.get_number_of_products_in_page())# вызываем метод сравнения значения количества товаров на фильтре и на сайте.
         print("Click Checkbox 20% Discount GOOD")
 
     def click_checkbox_load_rating_phone_sup(self):# метод нажатия на чекбокс фильтра "4,5 и выше".
         self.filter_click_and_assert_value_in_page(self.get_checkbox_filter_sup(13), self.get_number_of_products_in_page())# вызываем метод сравнения значения количества товаров на фильтре и на сайте.
 
     def click_checkbox_load_rating_monitor_sup(self):# метод нажатия на чекбокс фильтра "4,5 и выше".
-        self.filter_click_and_assert_value_in_page(self.get_checkbox_filter_sup(13), self.get_number_of_products_in_page())# вызываем метод сравнения значения количества товаров на фильтре и на сайте.
+        self.filter_click_and_assert_value_in_page(self.get_checkbox_filter_sup(12), self.get_number_of_products_in_page())# вызываем метод сравнения значения количества товаров на фильтре и на сайте.
 
     def click_year_of_release_filter_drop_down(self):# метод нажатия кнопку drop down "Год выпуска".
         self.move_to_element(self.get_filter_drop_down(23))
@@ -120,8 +120,8 @@ class Product_page(Base):
         print("Click Checkbox 2024 GOOD")
 
     def click_checkbox_5ms(self):# метод нажатия на чекбокс фильтра "3 мс."
-        self.move_to_element(self.get_checkbox_filter_sup(87))
-        self.filter_click_and_assert_value_in_page(self.get_checkbox_filter_sup(87), self.get_number_of_products_in_page())# вызываем метод сравнения значения количества товаров на фильтре и на сайте.
+        self.move_to_element(self.get_checkbox_filter_sup(86))
+        self.filter_click_and_assert_value_in_page(self.get_checkbox_filter_sup(86), self.get_number_of_products_in_page())# вызываем метод сравнения значения количества товаров на фильтре и на сайте.
         print("Click Checkbox 5ms Good")
 
     def click_price_product_1_and_accert_values(self):# метод нажатия на кнопку добавления в корзину первого товара.

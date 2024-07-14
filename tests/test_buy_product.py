@@ -11,7 +11,7 @@ from pages.main_page import Main_page
 from pages.order_page import Order_page
 from pages.product_page import Product_page
 
-def test_buy_product_1():# Создаём метод.
+def test_buy_product_1():# Создаём метод добавления в корзину Смартфона
 
     options = webdriver.ChromeOptions()
     options.add_experimental_option("detach", True)
@@ -41,7 +41,7 @@ def test_buy_product_1():# Создаём метод.
     time.sleep(10)
     driver.quit()
 
-def test_buy_product_2():
+def test_buy_product_2():# Создаём метод добавления в корзину Монитора
 
     options = webdriver.ChromeOptions()
     options.add_experimental_option("detach", True)
