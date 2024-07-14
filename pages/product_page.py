@@ -25,7 +25,6 @@ class Product_page(Base):
     closed_pop_up_button = '//button[@data-meta-name="UpsaleBasket__close-popup"]'
     go_to_shopping_cart_button = '//span[text()="Перейти в корзину"]'
     basket_snippet = '//div[@data-meta-name="BasketSnippet"]'
-    ewfw = '(//div[@data-meta-name="FilterLabel"])[99]//sup'
 
     # Getters
 
