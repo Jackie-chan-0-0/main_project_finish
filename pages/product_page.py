@@ -114,8 +114,8 @@ class Product_page(Base):
         print("Click Opening Button Response Time GOOD")
 
     def click_checkbox_2024(self):# метод нажатия на чекбокс фильтра "2024".
-        self.move_to_element(self.get_checkbox_filter_sup(98))
-        self.filter_click_and_assert_value_in_page(self.get_checkbox_filter_sup(98), self.get_number_of_products_in_page())# вызываем метод сравнения значения количества товаров на фильтре и на сайте.
+        self.move_to_element(self.get_checkbox_filter_sup(97))
+        self.filter_click_and_assert_value_in_page(self.get_checkbox_filter_sup(97), self.get_number_of_products_in_page())# вызываем метод сравнения значения количества товаров на фильтре и на сайте.
         print("Click Checkbox 2024 GOOD")
 
     def click_checkbox_5ms(self):# метод нажатия на чекбокс фильтра "3 мс."
